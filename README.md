@@ -1,15 +1,30 @@
-# Work in Progress
+# Balthazar Thinkpad USB adapter
+
+![Adapter](pic/PCB.png)
 
 # About
 
-This is a project attempting to make a USB keyboard/Trackpoint controller and enclosure for the non-chiclet Thinkpad keyboard (from the 10/20 generation, such as the T410, W520, etc.). These were, in my opinion, the best Thinkpad keyboards ever made.
+This is a project attempting to make a USB keyboard/Trackpoint controller and enclosure for the non-chiclet Thinkpad keyboard (from the 10/20 generation, such as the T410, W520, etc.). 
 
 # Controller
 
 The current plan is to use an RP2040 microcontroller running QMK to handle the key matrix scanning and Trackpoint. I would also like to add a USB 2.0 hub.
 
+# Project origin
 
-# Future goals
+If you need project with Sink Source USB along with USB HUB, please check this repository
 
-I would like to eventually adapt this keyboard to be used on the Framework 13 laptop, which would require designing a custom lower chassis for the Framework laptop. That is well in the future, but the engineering required for this project lays much of the groundwork for that project. 
+https://github.com/bluepylons/A-Thinkpad-USB-keyboard
 
+## License
+
+CERN Open Hardware Licence Version 2 - Weakly Reciprocal
+
+## Funding
+
+This project is funded through the [NGI Zero Entrust Fund](https://nlnet.nl/entrust), a fund
+established by [NLnet](https://nlnet.nl) with financial support from the European Commission's
+[Next Generation Internet](https://ngi.eu) program. Learn more on the [NLnet project page](https://nlnet.nl/project/Balthazar-Casing/).
+
+[<img src="https://nlnet.nl/logo/banner.png" alt="NLNet foundation logo" width="300" />](https://nlnet.nl)
+[<img src="https://nlnet.nl/image/logos/NGI0Entrust_tag.svg" alt="NGI0 Entrust Logo" width="300" />](https://nlnet.nl/entrust)
