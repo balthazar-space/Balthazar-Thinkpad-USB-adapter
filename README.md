@@ -4,11 +4,12 @@
 
 # About
 
-This is a project attempting to make a USB keyboard/Trackpoint controller and enclosure for the non-chiclet Thinkpad keyboard (from the 10/20 generation, such as the T410, W520, etc.). 
+This is a project attempting to make a USB keyboard/Trackpoint controller and enclosure for the non-chiclet Thinkpad keyboard (from the 10/20 generation, such as the T410, W520, X2xx series etc.). 
+the idea is to connect a ThinkPad keyboard as a foreign or extrenal add-on to a housing fitting in a provided frame. External keyboard connects via click-on controller to the ThinkPad-adapter, which connects to our Unifying PCB.
 
 # Controller
 
-The current plan is to use an RP2040 microcontroller running QMK to handle the key matrix scanning and Trackpoint. I would also like to add a USB 2.0 hub.
+The current plan is to use an RP2040 microcontroller running QMK to handle the key matrix scanning and Trackpoint for TP keyboard.
 
 # Project origin
 
