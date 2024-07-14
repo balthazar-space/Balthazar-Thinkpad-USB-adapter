@@ -4,9 +4,9 @@
 
 # About
 
-This project will make a USB keyboard/Trackpoint controller and enclosure for the non-chiclet Thinkpad keyboard (from the 10/20 generation, such as the T410, W520, etc.). 
+This project will make a USB keyboard/Trackpoint controller and enclosure for the non-chiclet Thinkpad keyboard (from the 10/20 generation, such as the T410, W520, X230 etc.). 
 
-[Keyboard3](https://github.com/balthazar-space/Balthazar-Keyboard-3) and the Thinkpad over this adapter connect over a USB cable to the Balthazar Unifying board.
+[Keyboard 3](https://github.com/balthazar-space/Balthazar-Keyboard-3) and the Thinkpad over this adapter connect over a USB cable to the Balthazar Unifying board.
 
 https://github.com/balthazar-space/Unifying-PCB
 
@@ -16,11 +16,11 @@ You can also use this adapter to connect the Thinkpad keyboard on your PC,  conn
 
 # Controller
 
-The current plan is to use an RP2040 microcontroller running QMK to handle the key matrix scanning and Trackpoint.
+The current plan is to use an RP2040 microcontroller running custom QMK to handle the key matrix scanning and Trackpoint.
 
 # Project origin
 
-Differences from the original project
+Differences from the original project:
 
 We have removed parts that the Balthazar Keyboard does not need.
 
@@ -38,7 +38,7 @@ https://github.com/bluepylons/A-Thinkpad-USB-keyboard
 
 Here you can find new [BOM](https://github.com/balthazar-space/Balthazar-Thinkpad-USB-adapter/tree/main/PCB/bom)
 
-Adapter is stil not produced but we should have some prototypes soon!
+Adapter is stil not produced, but we should have some prototypes soon!
 
 ## License
 
